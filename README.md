@@ -1,16 +1,19 @@
+
 # robosys2020
 ロボットシステム学課題1
 
 ## 内容
+```
 https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled.c を改変しデバイスドライバを作成しました。
-
+```
 ## 実装機能
+```
 echo 0 > /dev/myled0　全部消灯 
 echo 1 > /dev/myled0　全部を1秒間隔に点滅
 echo 2 > /dev/myled0　片方を点灯
 echo 3 > /dev/myled0　echo 2 > /dev/myledoを消灯し反対側を点灯
 echo 4 > /dev/myled0　全部点灯
-
+```
  ## 用意する物
 ・Raspberry Pi4
 ・ブレッドボード
@@ -20,6 +23,7 @@ echo 4 > /dev/myled0　全部点灯
 ・LED×2
 
  ## 動作法
+ ```
  make 
  ↓
  sudo insmod myled.ko
@@ -27,6 +31,7 @@ echo 4 > /dev/myled0　全部点灯
  sudo chmod 666 /dev/myled0 
  ↓
  echo 1 > /dev/myled0 etc...
+ ```
  
  ## youtube説明
  0:00 ~ 0:14 echo 1 > /dev/myled0
