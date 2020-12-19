@@ -35,7 +35,7 @@ echo 4 > /dev/myled0　全部点灯
  ↓
  sudo insmod myled.ko
  ↓
- sudo chmod 666/dev/myled0 
+ sudo chmod 666 /dev/myled0 
  ↓
  echo 1 > /dev/myled0 etc...
  ```
