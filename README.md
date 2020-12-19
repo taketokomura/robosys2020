@@ -6,6 +6,12 @@
 ```
 https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled.c を改変しデバイスドライバを作成しました。
 ```
+## 動作環境
+OS:Ubuntu 18.04
+
+## インストール方法
+ $ git clone https://github.com/taketokomura/robosys2020.git
+
 ## 実装機能
 ```
 echo 0 > /dev/myled0　全部消灯 
@@ -21,7 +27,7 @@ echo 4 > /dev/myled0　全部点灯
 ・ジャンパー線　オスーオス×2
 ・ジャンパー線　オスーメス×3
 ・LED×2
-
+ 
  ## 動作法
  ```
  make 
@@ -45,6 +51,11 @@ echo 4 > /dev/myled0　全部点灯
  西廣巧
  嶋田雅
  
+ ## 工夫したところ
+ 点灯、消灯、点滅を全部できるようにし、どの動作からも変化が分かるようにした。
+ 
  ## youtube URL
  https://youtu.be/sFWkVtv9MPo
  
+ ## ライセンス
+ GNU General Public License v3.0
