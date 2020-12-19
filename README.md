@@ -10,8 +10,9 @@ https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled.c を改
 OS:Ubuntu 18.04
 
 ## インストール方法
+```
  $ git clone https://github.com/taketokomura/robosys2020.git
-
+```
 ## 実装機能
 ```
 echo 0 > /dev/myled0　全部消灯 
